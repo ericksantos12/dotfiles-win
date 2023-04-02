@@ -11,6 +11,7 @@
 	st = status
 [core]
 	editor = \"D:\\Users\\erick\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+	excludesFile = %USERPROFILE%\\.gitignore
 [user]
 	name = Erick Santos
 	email = 16109127+ericksantos12@users.noreply.github.com
