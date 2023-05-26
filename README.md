@@ -29,6 +29,8 @@ git clone https://github.com/ericksantos12/Windows-Dotfiles.git
 
 %USERPROFILE%/.gitignore
 
+%USERPROFILE%/.config/starship.toml
+
 %APPDATA%/yt-dlp.conf
 ```
 
