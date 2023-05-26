@@ -17,5 +17,6 @@
 	email = 16109127+ericksantos12@users.noreply.github.com
 [safe]
 	directory = D:/Projetos
+	directory = E:/Faculdade
 [credential]
 	helper = cache
