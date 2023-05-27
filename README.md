@@ -17,8 +17,10 @@ Dotfiles are configuration files used in operating systems such as macOS, Linux 
 git clone https://github.com/ericksantos12/Windows-Dotfiles.git
 ```
 
-3. Bootstrap
+3. Bootstrap **(Powershell in Administrator)**
 ```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 cd Windows-Dotfiles
 ./install.ps1
 ```
