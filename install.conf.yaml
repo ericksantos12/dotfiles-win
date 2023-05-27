@@ -1,0 +1,23 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.gitconfig: ".gitconfig"
+    ~/.gitignore: ".gitignore"
+    ~/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1: "powershell/Microsoft.PowerShell_profile.ps1"
+    ~/AppData/Roaming/yt-dlp/yt-dlp.conf: "yt-dlp.conf"
+    ~/.config/starship.toml: "config/starship.toml"
+
+- create:
+    - ~/.ssh
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - [Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -and irm get.scoop.sh | iex, Installing Scoop]
+  - [scoop bucket add main, Adding main bucket to scoop]
+  - [scoop install main/yt-dlp, Installing yt-dlp]
+  - [scoop install main/starship, Installing Starship]
