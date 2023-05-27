@@ -6,10 +6,15 @@
 - clean: ['~']
 
 - link:
-    ~/.gitconfig: ".gitconfig"
-    ~/.gitignore: ".gitignore"
     ~/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1: "powershell/Microsoft.PowerShell_profile.ps1"
-    ~/AppData/Roaming/yt-dlp/yt-dlp.conf: "yt-dlp.conf"
+    ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json: 
+        force: true
+        path: "terminal/settings.json"
+    ~/.gitconfig: 
+        force: true
+        path: ".gitconfig"
+    ~/.gitignore: ".gitignore"
+    ~/AppData/Roaming/yt-dlp.conf: "yt-dlp.conf"
     ~/.config/starship.toml: "config/starship.toml"
 
 - create:
@@ -17,7 +22,19 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -and irm get.scoop.sh | iex, Installing Scoop]
+  - [irm get.scoop.sh | iex, Installing Scoop]
   - [scoop bucket add main, Adding main bucket to scoop]
+  - [scoop bucket add extras, Adding extras bucket to scoop]
+  - [scoop bucket add nerd-fonts, Adding nerd-fonts bucket to scoop]
   - [scoop install main/yt-dlp, Installing yt-dlp]
   - [scoop install main/starship, Installing Starship]
+  - [scoop install main/nodejs-lts, Installing NodeJS LTS]
+  - [scoop install main/pnpm, Installing pnpm]
+  - [scoop install main/python, Installing Python]
+  - [scoop install extras/eartrumpet, Installing EarTrumpet]
+  - [scoop install extras/bandizip, Installing Bandizip]
+  - [scoop install extras/freedownloadmanager, Installing FreeDownloadManager]
+  - [scoop install extras/vscode, Installing VSCode]
+  - [scoop install extras/windows-terminal, Installing Windows Terminal]
+  - [scoop install extras/vivaldi, Installing Vivaldi]
+  - [scoop install nerd-fonts/FiraCode-NF, Installing FiraCode-NF]
