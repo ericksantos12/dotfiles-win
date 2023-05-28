@@ -1,6 +1,5 @@
 # Credits:
 # https://github.com/ChristianLempa/dotfiles-win
-[console]::InputEncoding = [console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
 
 New-Alias g goto
 
