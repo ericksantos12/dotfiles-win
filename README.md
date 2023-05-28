@@ -14,14 +14,14 @@ Dotfiles are configuration files used in operating systems such as macOS, Linux 
 
 2. Clone repo
 ```
-git clone https://github.com/ericksantos12/dotfiles.git
+git clone https://github.com/ericksantos12/dotfiles-win.git
 ```
 
 3. Bootstrap **(Powershell in Administrator)**
 ```
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-cd dotfiles
+cd dotfiles-win
 ./install.ps1
 ```
 
