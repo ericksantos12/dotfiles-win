@@ -1,0 +1,108 @@
+# Specify a command to be executed
+# like `/bin/bash -l`, `ls`, or any other commands
+# the default is bash for Linux
+# or powershell.exe for Windows
+command: null
+
+# Specify the current working directory path
+# the default is the current working directory path
+cwd: null
+
+# Export additional ENV variables
+env:
+  recording: true
+
+# Explicitly set the number of columns
+# or use `auto` to take the current
+# number of columns of your shell
+cols: auto
+
+# Explicitly set the number of rows
+# or use `auto` to take the current
+# number of rows of your shell
+rows: auto
+
+# Amount of times to repeat GIF
+# If value is -1, play once
+# If value is 0, loop indefinitely
+# If value is a positive number, loop n times
+repeat: 0
+
+# Quality
+# 1 - 100
+quality: 100
+
+# Delay between frames in ms
+# If the value is `auto` use the actual recording delays
+frameDelay: auto
+
+# Maximum delay between frames in ms
+# Ignored if the `frameDelay` isn't set to `auto`
+# Set to `auto` to prevent limiting the max idle time
+maxIdleTime: 2000
+
+# The surrounding frame box
+# The `type` can be null, window, floating, or solid`
+# To hide the title use the value null
+# Don't forget to add a backgroundColor style with a null as type
+frameBox:
+  type: null
+  title: null
+  style:
+    backgroundColor: "#1E1E2E"
+    border: 0px black solid
+    # boxShadow: none
+    # margin: 0px
+
+# Add a watermark image to the rendered gif
+# You need to specify an absolute path for
+# the image on your machine or a URL, and you can also
+# add your own CSS styles
+watermark:
+  imagePath: null
+  style:
+    position: absolute
+    right: 15px
+    bottom: 15px
+    width: 100px
+    opacity: 0.9
+
+# Cursor style can be one of
+# `block`, `underline`, or `bar`
+cursorStyle: block
+
+# Font family
+# You can use any font that is installed on your machine
+# in CSS-like syntax
+fontFamily: "FiraCode NF, Monospace"
+
+# The size of the font
+fontSize: 12
+
+# The height of lines
+lineHeight: 1
+
+# The spacing between letters
+letterSpacing: 0
+
+# Theme
+theme:
+  background: "#1E1E2E"
+  foreground: "#CDD6F4"
+  cursor: "#F5E0DC"
+  black: "#45475A"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#F9E2AF"
+  blue: "#89B4FA"
+  magenta: "#F5C2E7"
+  cyan: "#94E2D5"
+  white: "#BAC2DE"
+  brightBlack: "#626566"
+  brightRed: "#F38BA8"
+  brightGreen: "#A6E3A1"
+  brightYellow: "#F9E2AF"
+  brightBlue: "#89B4FA"
+  brightMagenta: "#F5C2E7"
+  brightCyan: "#94E2D5"
+  brightWhite: "#BAC2DE"
