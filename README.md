@@ -1,4 +1,13 @@
-# Windows Dotfiles
+<h1 align="center">📂 dotfiles-win</h1>
+
+<div align="center">
+
+  [![Last Commit](https://img.shields.io/github/last-commit/ericksantos12/dotfiles-win?style=for-the-badge&color=cba6f7&logoColor=D9E0EE&labelColor=302D41)](https://github.com/ericksantos12/dotfiles-win/commits/main)
+  [![Size](https://img.shields.io/github/repo-size/ericksantos12/dotfiles-win.svg?style=for-the-badge&color=eba0ac&logoColor=D9E0EE&labelColor=302D41)](https://github.com/ericksantos12/dotfiles-win/issues)
+  [![License](https://img.shields.io/github/license/ericksantos12/dotfiles-win?style=for-the-badge&color=a6e3a1&logoColor=D9E0EE&labelColor=302D41)](https://github.com/ericksantos12/dotfiles-win/blob/main/LICENSE)
+  [![GitHub Issues](https://img.shields.io/github/issues/ericksantos12/dotfiles-win.svg?style=for-the-badge&color=94e2d5&logoColor=D9E0EE&labelColor=302D41)](https://github.com/ericksantos12/dotfiles-win/issues)
+  [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge&color=f9e2af&logoColor=D9E0EE&labelColor=302D41)](https://gitmoji.dev)
+</div>
 
 **Table of Contents**
 - [About](#about)
