@@ -2,6 +2,8 @@
     link:
       create: true
       relink: true
+    shell:
+      quiet: true
 
 - clean: ['~']
 
@@ -28,15 +30,19 @@
   - [scoop bucket add main, Adding main bucket to scoop]
   - [scoop bucket add extras, Adding extras bucket to scoop]
   - [scoop bucket add nerd-fonts, Adding nerd-fonts bucket to scoop]
+
   - [scoop install main/yt-dlp, Installing yt-dlp]
   - [scoop install main/starship, Installing Starship]
   - [scoop install main/nodejs-lts, Installing NodeJS LTS]
   - [scoop install main/pnpm, Installing pnpm]
   - [scoop install main/python, Installing Python]
+
   - [scoop install extras/eartrumpet, Installing EarTrumpet]
   - [scoop install extras/bandizip, Installing Bandizip]
   - [scoop install extras/freedownloadmanager, Installing FreeDownloadManager]
   - [scoop install extras/vscode, Installing VSCode]
   - [scoop install extras/windows-terminal, Installing Windows Terminal]
   - [scoop install extras/vivaldi, Installing Vivaldi]
+
   - [scoop install nerd-fonts/FiraCode-NF, Installing FiraCode-NF]
+  
