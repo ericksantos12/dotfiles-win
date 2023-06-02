@@ -13,6 +13,7 @@
     ~/AppData/Roaming/yt-dlp.conf: "yt-dlp.conf"
     ~/AppData/Roaming/terminalizer/config.yml: "terminalizer/config.yml"
     ~/.config/starship.toml: "config/starship.toml"
+    ~/.wslconfig: ".wslconfig"
     ~/.gitconfig: 
         force: true
         path: ".gitconfig"
